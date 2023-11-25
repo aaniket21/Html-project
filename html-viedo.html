@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lacture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/img.jpg" alt="Gurukul"></div>
+            <li><a href="#"> Home </a></li>
+            <li><a href="about.html">about </a></li>
+            <li><a href="#courses"> courses </a></li>
+            <li><a href="#contact"> Contact</a></li>
+            
+        </ul>
+        <div class="rightNav v-class-resp">
+             <input type="text" name="search" id="search">
+             <button class="btn btn-sm">search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    
+    <div class="container-viedo">
+        <h1>HTML</h1>
+        <div class="row">
+            <div class="col">
+                <div class="feature-img">
+                    <img src="img/html-lec01.jpg" width="100%">
+                    <img src="img/play-button.png" class="play-btn"
+                    onclick="playVideo('')">
+                </div>
+                <div class="col">
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/html-lec02.jpg" alt="html-lec02">
+                            <img src="img/play-button.png" class="play-btn" onclick="playVideo('')">
+                        </div>
+                        <p>html lecture 2 discription</p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/html-lec03.jpg" alt="html-lec02">
+                            <img src="img/play-button.png" class="play-btn" onclick="playVideo('')">
+                        </div>
+                        <p>html lecture 3 discription</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="viedo-player" id="viedoPlayer">
+        <video width="100%" controls autoplay id="myViedo">
+            <source src="" type="viedo/mp4">
+        </video>
+        <img src="img/close-button.jpg" class="close-btn" onclick="stopVideo()">
+    </div>
+    <script src="resp.js"></script>
+</body>
+</html>
