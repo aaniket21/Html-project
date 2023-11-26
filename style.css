@@ -112,6 +112,9 @@ html{
 .text-big{
     font-size: 41px;
 }
+.text-medium{
+    font-size: 30px;
+}
 
 .text-small{
     font-size: 18px;
