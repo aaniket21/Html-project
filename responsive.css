@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1140px){
+@media only screen and (max-width: 1200px){
     .nav-list{
         flex-direction: column;
     }
@@ -67,4 +67,30 @@
         padding: 0px;
         font-size: 16px;
     }
+    .container-video{
+        margin:0;
+     }
+  
 }
+@media (max-width:450px){
+
+    .container-video .main-video-container .main-vid-title{
+       font-size: 15px;
+       text-align: center;
+    }
+ 
+    .container-video .video-list-container .list{
+       flex-flow: column;
+       gap:10px;
+    }
+ 
+    .container-video .video-list-container .list .list-video{
+       width: 100%;
+    }
+ 
+    .container-video .video-list-container .list .list-title{
+       font-size: 15px;
+       text-align: center;
+    }
+ 
+ }
