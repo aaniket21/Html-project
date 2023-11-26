@@ -65,7 +65,12 @@ html{
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.7) url('image/building.jpeg');
+    background: rgba(0, 0, 0, 0.7) url('img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.background-about{
+    background: rgba(0, 0, 0, 0.7) url('img/about-bg.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -147,6 +152,10 @@ html{
 
 .section-left{
     flex-direction: row-reverse;
+}
+
+.textcolorchange{
+    color: white;
 }
    
 .paras{
