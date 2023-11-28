@@ -69,11 +69,7 @@ html{
     background-size: cover;
     background-blend-mode: darken;
 }
-.background-about{
-    background: rgba(0, 0, 0, 0.7) url('img/about-bg.jpg');
-    background-size: cover;
-    background-blend-mode: darken;
-}
+
 
 .firstSection{
     height: 100vh;
