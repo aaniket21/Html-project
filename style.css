@@ -393,3 +393,73 @@ html{
     font-size: 17px;
     color:#444;
  }
+
+ .sign-up-form
+{
+  width: 300px;
+   box-shadow: 0 0 3px 0 rgba(0,0,0,0,3);
+   background: #fff;  
+   padding: 20px;
+   margin: 8% auto 0;
+   text-align: center;
+} 
+.sign-up-form h1
+{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box
+{
+   border-radius: 20px;
+   padding: 10px;
+   margin: 10px 0;
+   width: 100%;
+   border: 1px solid #999;
+   outline: none;
+}
+.signup-btn
+{
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+    border-color: black;
+    outline:none;
+    cursor: pointer;
+    background-color: #1c8adb;
+}
+.google-btn
+{
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+    border-color: black;
+    outline:none;
+    cursor: pointer;
+    background-color: #21afde;
+}
+.sign-a{
+    text-decoration: none;
+}
+.hr-line
+{
+    margin-top: 20px;
+    width: 80px;
+}
+.or
+{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+.icon-photo
+{
+    width: 70px;
+}

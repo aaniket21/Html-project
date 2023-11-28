@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Sign Up Form</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+<style>
+    body { 
+            margin: 0;
+            padding:0;
+            font-family:sans-serif;
+            background-image: url(img/login-bg.jpg);
+            background-size: cover;
+            background-position: center;
+    }
+   
+</style>
+</head>
+    <body>
+        <nav class="navbar background h-nav-resp">
+            <ul class="nav-list v-class-resp">
+                <div class="logo"><img src="img/img.jpg" alt="Gurukul"></div>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="about.html">About </a></li>
+                <li><a href="index.html"> Courses </a></li>
+                <li><a href="contact.html"> Contact Us</a></li>
+                <li><a href="#"> Sign up/Log in</a></li>
+                
+            </ul>
+            <div class="rightNav v-class-resp">
+                 <input type="text" name="search" id="search" placeholder="Courses">
+                 <button class="btn btn-sm" >search</button>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+        <div class="sign-up-form">
+        <img src="img/user-icon.png" class="icon-photo">
+            <h1> Sign Up Now</h1>
+            <form> 
+            <input type="email" class="input-box" placeholder="Your Email">
+            <input type="password" class="input-box" placeholder="Your password">
+            <p><span><input type="checkbox"></span> I agree to the term of services</p>
+            <a href="index.html"><button type="button" class="signup-btn" >Sign up</button></a>
+            <hr class="hr-line">
+            <p class="or">OR</p>
+            <button type="button" class="google-btn">Login with google</button>
+            <p>Do you have an account ? <a href="#" class="sign-a">Sign in</a></p>
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
